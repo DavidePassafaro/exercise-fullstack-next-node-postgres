@@ -1,0 +1,16 @@
+{
+  "name": "fullstack-next-node-postgres",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "docker compose build",
+    "start-db": "docker compose up -d db",
+    "stop-db": "docker compose down db",
+    "start-be": "docker compose up -d backend",
+    "stop-be": "docker compose down backend",
+    "start-fe": "docker compose up -d frontend",
+    "stop-fe": "docker compose down frontend"
+  }
+}
